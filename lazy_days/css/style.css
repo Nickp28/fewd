@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,700i|Spectral:400,400i');
+
+header {
+    margin: -20px;
+    background-size: cover;
+    background-color: #FCEE21
+  }
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  padding: 80px 0 40px 0;
+  color: #333333;
+}
+
+nav {
+    color: #333333;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    padding: 0 0 40px 0;
+    word-spacing: 15px;
+}
+
+a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    padding-bottom: solid;
+    border-bottom: solid;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333333
+
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+main {
+    padding: 65px;
+  }
+article {
+    padding: 80px 0 0 0;
+    font-family: "Open-Sans", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #333333
+}
+
+h2 {
+    padding: 40px 0 0 0;
+    font-family: "Open-Sans", sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+
+}
+
+h3 {
+    font-family: "Spectral", sans-serif;
+    font-size: 22px;
+    font-stretch: condensed;
+    font-style: italic;
+    text-align: center;
+    color: #333333
+}
+
+p {
+  font-family: "Spectral", sans-serif;
+  font-size: 20px;
+  margin: 20px;
+  padding: 0 0 30px 0;
+  text-align: justify;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+  text-indent: 80px;
+  padding: 20px;
+  margin: -20px;
+  color: #333333;
+  background-color: #FCEE21
+}
