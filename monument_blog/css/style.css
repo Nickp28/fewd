@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+			font-family: "Raleway", sans-serif;
+			letter-spacing: .02em;
+			text-align: center;
+			color: #44545e;
+			-webkit-font-smoothing: antialiased;
+			border: 50px;
+}
+/* ----------------------------------------
+Header Styles
+------------------------------------------- */
+.image {
+	position: relative;
+	background-position: center;
+}
+header {
+	margin: -100px;
+
+}
+	div h1 a {
+		position: absolute;
+		top: 110px;
+ 		left: 380px;
+ 		width: 100%;
+		text-align: center;
+		color: #ffffff;
+		font-size: 37px;
+		letter-spacing: .5em;
+		text-decoration: none;
+		text-transform: uppercase;
+
+	}
+
+/* ----------------------------------------
+Nav Styles
+------------------------------------------- */
+	nav div a {
+		font-family: "Raleway", sans-serif;
+		font-size: 16px;
+		text-transform: uppercase;
+		color: #7b98aa;
+		text-decoration: none;
+		margin: 50px;
+		font-weight: 600;
+
+}
+/* ----------------------------------------
+Typography Styles
+------------------------------------------- */
+h2, h3 {
+	text-align: left;
+	color: #44545e;
+	text-transform: uppercase;
+	margin: 60px;
+}
+h2 {
+	padding-bottom: 40px;
+
+}
+/* ----------------------------------------
+Article Styles
+------------------------------------------- */
+ul {
+	text-align: left;
+	color: #44545E;
+	font-weight: 600;
+	text-transform: none;
+}
+
+
+p {
+		text-transform: none;
+		font-family: "Lato", sans-serif;
+		font-size: 15px;
+		font-weight: 400;
+		padding: 5px 0 40px 0;
+		text-align: justify;
+		display: block;
+		border: 0 auto;
+		margin: 55px;
+}
+/* ----------------------------------------
+Flex Styles
+------------------------------------------- */
+div {
+	display: flex;
+	justify-content: space-around;
+}
+
+.article {
+	width: 64%;
+}
+
+.aside {
+	width: 35%;
+	margin-top: 85px;
+}
+
+ul div a {
+	font-family: "Raleway", sans-serif;
+	font-size: 15px;
+	color: #7b98aa;
+	text-decoration: none;
+	text-transform: none;
+}
+/* ----------------------------------------
+Footer Styles
+------------------------------------------- */
+footer {
+	background-color: #cdf3f6;
+	padding: 20px;
+}
+footer div {
+		padding: 0 0 30px 0;
+}
+footer div a {
+	text-decoration: none;
+	font-weight: 600;
+	color: #44545e;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 10px;
+}
+footer p {
+	text-align: center;
+	margin: 5px;
+}
+footer p a {
+		font-weight: 600;
+		color: #44545E;
+		text-decoration: none;
+		font-family: "Lato", sans-serif;
+		font-size: 15px;
+}
+hr {
+		margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+.list {
+	
+}
+/* Fix for responsive images */
+
+img {
+	max-width: 85%;
+	display: block;
+	border: 0 auto;
+	margin: 60px;
+}
+/* ----------------------------------------
+Icon Style Test
+------------------------------------------- */
+
+.fa-facebook-square:before {
+  content: "\f082";
+	padding: 20px;
+}
+
+.fa-twitter-square:before {
+  content: "\f081";
+	padding: 20px;
+}
+
+.fa-instagram-square:before {
+  content: "\f083";
+	padding: 20px;
+}
+
+.button "EMAIL ADDRESS" {
+		font-family: "Raleway", sans-serif;
+		text-transform: uppercase;
+}
