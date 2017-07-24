@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400i,700');
+
+/* ==========================================================================
+   Base styles:
+   ========================================================================== */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for responsive images */
+img {
+  max-width: 100%;
+}
+/* NAVIGATION ---------------------*/
+nav a {
+     color: #808284;
+     font-family: "Libre Baskerville", serif;
+     font-style: italic;
+     font-weight: 400;
+     text-transform: lowercase;
+     font-size: 14px;
+     text-decoration: none;
+     letter-spacing: 0.75px;
+     padding: 0px 50px 0 30px;
+   }
+   a:hover {
+   	color: #000000;
+   	-webkit-transition: color .3s ease-in-out;
+   	transition: color .3s ease-in-out;
+   }
+   nav {
+     padding-top: 50px;
+   	 top: 100px;
+     margin-left: 170px;
+   	 right: 0;
+    z-index: 10;
+    text-align: left;
+   }
+   hr {
+     margin-left: 200px;
+     width: auto;
+     margin-right: 100px;
+   }
+/* TYPOGRAPHY ----------------------*/
+h1 {
+  color: #808284;
+  font-family: "Libre Baskerville", serif;
+  font-style: italic;
+  margin: 0 0 0 75px;
+  font-weight: 400;
+}
+h2 {
+  font-family: "Libre Baskerville", serif;
+  font-style: italic;
+  font-weight: normal;
+  color: #ffffff;
+}
+p {
+	color: #808284;
+	font-family: "Libre Baskerville", serif;
+	font-style: italic;
+	font-size: 14px;
+}
+aside p {
+  color: #808284;
+  font-family: "Libre Baskerville", serif;
+  font-style: italic;
+  font-size: 14px;
+  padding: 0px 40px 50px 30px;
+  margin-left: 170px;
+  margin-right: 400px;
+}
+span {
+  color: #000000;
+}
+/* ARTICLE --------------------------*/
+article {
+  text-align: center;
+}
+div {
+  padding: 15px 15px 0 600px;
+}
+
+/* INPUT ----------------------------*/
+input {
+	border: solid 1px;
+	color: #BBBDC0;
+	text-transform: lowercase;
+	font-family: "Libre Baskerville", serif;
+  font-style: italic;
+  font-weight: 400;
+	font-size: 10px;
+	text-align: center;
+	width:100px;
+	height: 30px;
+	margin: 10px 0 0 75px;
+  letter-spacing: 0.75px;
+}
+
+/* CLASS ---------------------------*/
+.hand {
+	background-image: url('images copy/HandofGod.png');
+  background-size: 75%;
+  min-height: 700px;
+  background-color: #ffffff;
+	background-repeat: no-repeat;
+	position: relative;
+	bottom: 200px;
+	left: 250px;
+	z-index: -10;
+  margin: auto;
+}
+
+.background {
+background-color: #BBBDC0;
+margin: 400px 0 400px 0;
+padding: 30px 0 350px 0;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: center;
+  position: relative;
+	right: 500px;
+}
