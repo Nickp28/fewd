@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Lato%7CRaleway:600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+/* Note: Makes sure that padding and the border are included in the width for each element. */
+/* Don't add anything else under the * selector! */
+* {
+	box-sizing: border-box;
+}
+
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+body {
+		font-family: "Raleway", sans-serif;
+		font-weight: 600;
+		text-align: center;
+		color: #44545e;
+		text-transform: uppercase;
+
+}
+
+
+p {
+	font-family: "lato",sans-serif;
+	font-weight: normal;
+	text-align: center;
+	text-transform: none;
+	font-size: 15px;
+}
+
+/* ----------------------------------------
+Lists
+------------------------------------------- */
+.flexcontainer {
+	display: flex;
+	justify-content: space-between;
+	max-width: 100%;
+
+}
+
+.section {
+		width: 33%;
+		}
+
+.div {
+	display: flex;
+	justify-content: space-between;
+}
+
+.gallery {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+
+/* ----------------------------------------
+Layout
+------------------------------------------- */
+section article {
+		background-color: lightblue;
+		padding: 100px;
+		margin-top: 75px;
+		}
+/* ----------------------------------------
+Header
+------------------------------------------- */
+nav {
+	font-family: "Raleway", sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #7b98aa;
+	text-decoration: none;
+	font-weight: 600;
+	word-spacing: 75px;
+	padding-bottom: 20px;
+}
+
+header {
+	color: #ffffff;
+	background-image: url("../images/home_header_bg.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 200px;
+
+}
+h1 {
+	font-size: 37px;
+	letter-spacing: .5em;
+}
+h2 {
+	font-size: 23px;
+	font-weight: 400;
+}
+
+h3 {
+	padding-top: 75px;
+}
+
+/* ----------------------------------------
+Buttons
+------------------------------------------- */
+button {
+	cursor: pointer;
+	outline: 0;
+	border: 2px solid #44545E;
+	color: #44545E;
+	padding: 8px 25.5px;
+	background-color: transparent;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 12.299px;
+	letter-spacing: 1.2px;
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+button:hover {
+	background-color: #44545E;
+	color: white;
+	font-weight: 600;
+}
+.wrap {
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */
+footer {
+	background-color: lightblue;
+}
+
+hr {
+	border: solid 1px;
+	margin: 30px;
+}
+.copyright {
+	border-top: 2px solid #44545E;
+	padding: 15px 0 3px;
+}
+
+.fa-facebook-square:before {
+  content: "\f082";
+	padding: 20px;
+}
+
+.fa-twitter-square:before {
+  content: "\f081";
+	padding: 20px;
+}
+
+.fa-instagram-square:before {
+  content: "\f083";
+	padding: 20px;
+}
+}
