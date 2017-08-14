@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400i,700');
+* {
+	box-sizing: border-box;
+}
+
+/* ----------------------------------------
+Nav
+------------------------------------------- */
+  nav a {
+     color: #808284;
+     font-family: "Libre Baskerville", serif;
+     font-style: italic;
+     font-weight: 400;
+     text-transform: lowercase;
+     font-size: 14px;
+     text-decoration: none;
+     letter-spacing: 0.75px;
+     padding: 0px 50px 0 30px;
+		 position: relative;
+		 left: 170px;
+		 top: 5px;
+   }
+
+	 nav {
+	 	background-size: 15%;
+	 	position: relative;
+	 	z-index: 10;
+
+	 }
+ a:hover {
+	 color: #CD3192;
+	 -webkit-transition: color .3s ease-in-out;
+	 transition: color .3s ease-in-out;
+	}
+	 /* ----------------------------------------
+	 Header
+	 ------------------------------------------- */
+header {
+	background-image: url('images/GeniusAcadmey_Head copy.png');
+  background-size: 20px;
+	z-index: 10;
+	position: absolute;
+	top: 40px;
+	left: 20px;
+}
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+h1 {
+  color: #808284;
+  font-family: "Libre Baskerville", serif;
+  font-style: italic;
+  margin: 0 0 0 75px;
+  font-weight: 400;
+	position: relative;
+	top: -175px;
+}
+
+h2 {
+  font-family: "Libre Baskerville", serif;
+  font-style: italic;
+  font-weight: normal;
+  color: #ffffff;
+
+}
+
+aside p {
+  color: #808284;
+  font-family: "Libre Baskerville", serif;
+  font-style: italic;
+  font-size: 14px;
+  padding: 0px 40px 50px 30px;
+  margin-left: 170px;
+  margin-right: 400px;
+	position: relative;
+	top: -150px;
+}
+
+span {
+  color: #000000;
+}
+
+hr {
+  margin-left: 200px;
+  width: 750px;
+  margin-right: 100px;
+
+}
+
+input {
+	border: solid 1px;
+	color: #BBBDC0;
+	text-transform: lowercase;
+	font-family: "Libre Baskerville", serif;
+  font-style: italic;
+  font-weight: 400;
+	font-size: 10px;
+	text-align: center;
+	width:100px;
+	height: 30px;
+	margin: 10px 0 15px 75px;
+  letter-spacing: 0.75px;
+
+}
+
+article {
+  text-align: center;
+}
+
+div {
+  padding: 15px 15px 0 600px;
+}
+
+p {
+	color: #808284;
+	font-family: "Libre Baskerville", serif;
+	font-style: italic;
+	font-size: 14px;
+	z-index: 30;
+}
+
+/* ----------------------------------------
+Classes
+------------------------------------------- */
+.background {
+background-color: #BBBDC0;
+margin: 400px 0 400px 0;
+padding: 30px 0 350px 0;
+position: relative;
+bottom: 1000px;
+}
+
+.hand {
+	background-image: url('images/HandofGod.png');
+  background-size: 75%;
+  min-height: 700px;
+  background-color: #ffffff;
+	background-repeat: no-repeat;
+	position: relative;
+	bottom: 400px;
+	left: 150px;
+	z-index: -10;
+}
+
+.input a:hover {
+	color: #CD3192;
+	-webkit-transition: color .3s ease-in-out;
+	transition: color .3s ease-in-out;
+}
+.mainlogo {
+	background: url('images/GeniusAcademy_Head copy.png');
+	background-repeat: no-repeat;
+	background-size: 28%;
+	position: relative;
+	z-index: -20;
+	min-height: 200px
+}
+.subscribe {
+	position: relative;
+	top: -175px;
+}
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+	position: relative;
+	right: 300px;
+	bottom: 675px;
+	letter-spacing: 0.75px;
+}
+
+.wrap {
+	padding: 30px 15px;
+}
+
+.social-links a {
+	font-size: 30px;
+	padding: 15px;
+	display: inline-block;
+	position: relative;
+	top: -60px;
+	left: 175px;
+	color: #808284;
+	}
+
+	.social-links a:hover{
+		color: #CD3192;
+		-webkit-transition: color .3s ease-in-out;
+		transition: color .3s ease-in-out;
+	}
+
+	.title {
+	text-align: center;
+
+	}
+	.i {
+	color: #CD3192;
+}
+
+/*-------------------
+PSUEDO CODE JS
+Landing Page
+//when the landing page opens
+//else the landing page is refreshed
+//transform: translate "illu academics" 400px (to center) && fadeIn .3 secs
+//when "illu academics" clicked
+//load "home.html"
+
+HOME PAGE
+//When the mouse hovers over a href "begin lesson" (penicl)
+//transform: fadeIn vertical line (10px) (fadeIn = "grow")
+//transform: small circle scale(25px)
+//when small circle scale 25px
+//large circle scale 40px (starting from small circle)
+
+//When the mouse hovers over "perception"
+//change to text content <p>
+	//else "show icon"
+//When the mouse hovers over "analysis"
+//change to text content <p>
+	//else "show icon"
+//When the mouse hovers over "observe"
+//change to text content <p>
+	//else "show icon"
+
+WHAT WE DO PAGE
+
+//when page loads
+//fadeIn image 1 + translateX(-20px); opacity 0 ease in .3secs (3 images in flexbox)
+//when image 1 is at (-10px) fadeIn iamge 2 opacity 0 ease in.3 secs
+//when image 2 is at (-15px) fadeIn image 3 opactiy 0 ease in .3 secs
+//when image 1, 2, 3 reach -20px opacity 1
+
+
+
+--------------------*/
